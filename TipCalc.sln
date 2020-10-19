@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipCalc.Forms.UI", "TipCalc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipCalc.Core", "TipCalc.Core\TipCalc.Core.csproj", "{ABBDD344-CA5B-4A1E-9795-80A566F6DC7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalc.Forms.Droid", "TipCalc.Forms.Droid\TipCalc.Forms.Droid.csproj", "{6C5BBFD6-8892-4D20-BAAB-7C4EF57C12D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalc.Forms.Droid", "TipCalc.Forms.Droid\TipCalc.Forms.Droid.csproj", "{4779A119-513E-4423-9A16-255FDCBA2BEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +23,12 @@ Global
 		{ABBDD344-CA5B-4A1E-9795-80A566F6DC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABBDD344-CA5B-4A1E-9795-80A566F6DC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABBDD344-CA5B-4A1E-9795-80A566F6DC7E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6C5BBFD6-8892-4D20-BAAB-7C4EF57C12D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C5BBFD6-8892-4D20-BAAB-7C4EF57C12D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C5BBFD6-8892-4D20-BAAB-7C4EF57C12D1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{6C5BBFD6-8892-4D20-BAAB-7C4EF57C12D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C5BBFD6-8892-4D20-BAAB-7C4EF57C12D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6C5BBFD6-8892-4D20-BAAB-7C4EF57C12D1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4779A119-513E-4423-9A16-255FDCBA2BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4779A119-513E-4423-9A16-255FDCBA2BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4779A119-513E-4423-9A16-255FDCBA2BEA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4779A119-513E-4423-9A16-255FDCBA2BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4779A119-513E-4423-9A16-255FDCBA2BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4779A119-513E-4423-9A16-255FDCBA2BEA}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
