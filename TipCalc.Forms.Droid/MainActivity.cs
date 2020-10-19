@@ -14,7 +14,6 @@ namespace TipCalc.Forms.Droid
 {
     [Activity(
         Label = "TipCalc.Forms.Droid",
-        Icon = "@drawable/icon",
         Theme = "@style/MyTheme",
         MainLauncher = true,
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation,
