@@ -22,6 +22,7 @@ RaisePropertyChanged: the way to tell the base MvxViewModel that the data has ch
 ## UI
 
 in XAML and code.behind: change ContentPage to MvxContentPage
+
 data binding: mvx:Bi.nd (by default: one way)
 
 ## Platform-specific things
