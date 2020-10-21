@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
+using MvvmCross.Logging;
 using TipCalc.Core.Services;
 
 namespace TipCalc.Core.ViewModels
@@ -11,11 +12,13 @@ namespace TipCalc.Core.ViewModels
     public class TipViewModel : MvxViewModel
     {
         private readonly ICalculationService _calculationService;
+        private readonly IMvxLog _logger;
 
         // dependency injection
-        public TipViewModel(ICalculationService calculationService)
+        public TipViewModel(ICalculationService calculationService, IMvxLog logger)
         {
             _calculationService = calculationService;
+            _logger = logger;
         }
 
         private double _subTotal;
@@ -24,6 +27,7 @@ namespace TipCalc.Core.ViewModels
             get => _subTotal;
             set
             {
+                _logger.Info("SubTotal changed from " + _generosity + " to " + value);
                 _subTotal = value;
                 RaisePropertyChanged(() => SubTotal);
 
@@ -37,6 +41,7 @@ namespace TipCalc.Core.ViewModels
             get => _generosity;
             set
             {
+                _logger.Info("Generosity changed from " + _generosity + " to " + value);
                 _generosity = value;
                 RaisePropertyChanged(() => Generosity);
 
@@ -68,6 +73,7 @@ namespace TipCalc.Core.ViewModels
         private void Recalculate()
         {
             Tip = _calculationService.TipAmount(SubTotal, Generosity);
+            _logger.Info("Calculated tip amount: " + Tip);
         }
     }
 }
